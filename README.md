@@ -30,6 +30,9 @@ This project demonstrates a **data analytics pipeline** that integrates **Salesf
 | **Athena** | SQL query engine for JSON/CSV data in S3 |
 | **Apache Superset** | Dashboards & visualization |
 | **AWS Glue (optional)** | Schema detection & ETL |
+| **AWS Eventbridge**  | Captures AppFlow “End Flow Run Report” events (success or failure).|
+| **SNS**  | Sends notifications (via email or SMS) when AppFlow runs complete. |
+| **Email Notification**  | Informs team members that a Salesforce → S3 data sync just finished (or failed). |
 
 ---
 
