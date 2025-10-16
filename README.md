@@ -16,8 +16,9 @@ This project demonstrates a **data analytics pipeline** that integrates **Salesf
 
 **Flow:**
 1. Salesforce → AppFlow → S3 (Raw JSON files)
-2. Athena → Query & transform data in-place on S3
-3. Superset → Visualize data from Athena
+2. Eventbridge → SNS → Email Notifications
+3. Athena → Query & transform data in-place on S3
+4. Superset → Visualize data from Athena
 
 ---
 
