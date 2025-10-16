@@ -59,3 +59,11 @@ CREATE EXTERNAL TABLE IF NOT EXISTS salesforce_opportunities (
 )
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
 LOCATION 's3://my-sales-data/salesforce/opportunities/';
+```
+
+
+## Visualization
+
+A Superset dashboard showing total deal amount by stage :
+
+![Dashboard Screenshot](chart.png)
